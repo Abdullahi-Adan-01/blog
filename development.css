@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* start general styling */
+/* start general styling */
+/* start general styling */
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Luxurious Roman', cursive;
+
+}
+
+body {
+    user-select: text !important;
+
+}
+
+::selection {
+    background-color: #10ab942a;
+
+}
+
+/* end general styling */
+/* end general styling */
+/* end general styling */
+/* .profile img {
+    max-width: 5%;
+    height: auto;
+    position: absolute;
+    top: 1rem;
+    right: 8rem;
+
+} */
+
+/* .profile p {
+    position: absolute;
+    right: 1rem;
+    top: 2.2rem;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    color: dimgrey;
+
+} */
+
+body {
+    overflow-x: hidden;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.head {
+    text-align: center;
+    margin: .7rem;
+    /* background-color: #13cfb245; */
+}
+
+.firstimage img {
+    max-width: 10%;
+    height: auto;
+    position: relative;
+}
+
+.head p {
+    font-family: var(--name-font);
+    font-size: 1.2rem;
+
+
+}
+
+.head h2 {
+    margin-top: .6rem;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    color: #004400;
+
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem !important;
+    display: block;
+}
+
+section {
+    max-width: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    padding-top: 5rem;
+
+}
+
+.banner-img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 1.9rem;
+
+}
+
+section h1 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    text-align: center;
+
+}
+
+section p {
+    line-height: 1.7rem;
+    text-align: left;
+}
+
+section .span-1,
+.span-2 {
+    color: #10ab93;
+}
+
+.div-1 {
+    margin-top: 6rem;
+}
+
+.title {
+    width: max-content;
+    /* position: relative;
+    left: 3rem; */
+}
+
+.title span {
+    color: #10ab93;
+}
+
+.h-1 {
+    padding: 4rem 0rem;
+    text-align: left;
+
+
+
+}
+
+.h-2 {
+    line-height: 3rem;
+    width: fit-content;
+
+}
+
+.sm-1 {
+    padding-bottom: 3rem;
+    text-align: center !important;
+}
+
+.feel,
+.weak {
+    color: #10ab93;
+
+
+
+}
+
+.h-1 {
+    font-size: 1.6rem;
+}
+
+.exam-img {
+    max-width: 80%;
+    height: auto;
+    padding: 4.5rem 0rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.sm-2 h3 {
+    padding: 4rem 0rem;
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 2.4rem;
+
+
+}
+
+.sm-2 p {
+    position: relative;
+    bottom: 2rem;
+    padding: 2rem .1rem;
+    font-size: 1rem;
+
+}
+
+.sm-2 .n-1 {
+    color: #0d9d87;
+    font-size: 1.2rem;
+    width: fit-content;
+
+
+}
+
+.sm-3 .n-2 {
+    color: #0d9d87;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 2rem 0rem;
+}
+
+.sm-3 p {
+    padding: 2rem 0rem;
+}
+
+.sm-4 .n-3 {
+    color: #0d9d87;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 2rem 0rem;
+}
+
+.sm-4 p {
+    padding: 2rem 0rem;
+}
+
+.break {
+    margin: 10rem 0rem;
+}
+
+.break .break-1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #a2a2a2;
+    padding: 1rem 0rem;
+
+}
+
+.break img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    padding: 5.5rem 0rem;
+    margin: 0 auto;
+}
+
+.break .break-2 {
+    font-family: 'Supermercado One', cursive;
+    color: #a2a2a2;
+}
+
+.break-2 .goal {
+    font-family: 'Supermercado One', cursive;
+    color: #6C63FF;
+    padding-top: 2rem;
+
+}
+
+.nb {
+    padding-top: 6rem;
+}
+
+.nb .con {
+    font-size: 2.5rem;
+    font-family: 'Supermercado One', cursive;
+    color: #a2a2a2;
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.nb p {
+    padding: 2rem 0rem;
+
+}
+
+.nb .last {
+    font-size: 1.3rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: #636363;
+
+}
+
+.nb .tired {
+    color: #0d9d87;
+}
+
+.conclusion img {
+    max-width: 100%;
+    padding: 5.5rem 0rem;
+    height: auto;
+    display: block;
+
+}
+
+.follow {
+    height: 300px;
+    padding: 1rem 0rem;
+}
+
+.follow h3 {
+    padding: 2rem 0rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #636363;
+
+
+
+}
+
+.follow h4 {
+    padding: 2rem 0rem;
+    color: #636363;
+
+}
+
+.fab {
+    padding: 0 6px;
+    font-size: 45px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    /* font-weight: 600; */
+    position: relative;
+    right: 10px;
+    transition: all ease-out .3s 0s;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+
+
+
+
+}
+
+.fa-instagram {
+    color: #fb3958;
+    border-radius: 50%;
+
+}
+
+.fa-twitter-square {
+    color: #1DA1F2;
+    border-radius: 50%;
+
+}
+
+.fab:hover {
+    /* transform: scale(1.5); */
+    transform: rotate(30deg);
+}
+
+.footer {
+    width: 100%;
+    height: 2rem;
+    /* background-color: rgb(233, 233, 233); */
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    padding: 3rem 0rem;
+}
+
+.tree {
+    max-width: 55%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PHONES */
+@media only screen and (max-width:600px) {
+    .title {
+        font-size: 1.5rem;
+        width: fit-content;
+
+    }
+
+    .h-1 {
+        font-size: 1.5rem;
+        text-align: center;
+        /* text-decoration: underline; */
+
+    }
+
+    .h-2 {
+        font-size: 1.21rem;
+        line-height: 2.4rem;
+    }
+
+    .h-3 {
+        font-size: 1.21rem;
+        text-decoration: underline;
+
+    }
+
+    section p {
+        width: 95vw;
+    }
+
+    /* .profile img {
+        display: none;
+
+
+    } */
+
+    /* .profile p {
+        display: none;
+
+    } */
+
+
+    .head hr {
+        width: 85%;
+
+    }
+
+}
+
+/* TABLET POTRAIT */
+@media only screen and (min-width:601px) and (max-width:1024px) {
+    section {
+        max-width: 60%;
+        font-size: 1.2rem;
+    }
+
+    section .h-2 {
+        text-align: center;
+    }
+
+    section .h-1 {
+        text-align: center;
+
+    }
+
+    .title {
+        text-align: center;
+        width: fit-content;
+    }
+
+    .h-1 {
+        font-size: 1.7rem;
+        /* text-decoration: underline; */
+
+    }
+
+    .h-3 {
+        font-size: 1.7rem;
+        text-decoration: underline;
+    }
+
+    .sm-2 {
+        font-size: 1.8rem;
+
+    }
+
+    .sm-2 .n-1 {
+        font-size: 1rem;
+    }
+
+    .head hr {
+        width: 85%;
+
+    }
+
+    /* .profile img {
+        display: none;
+
+
+    } */
+
+    /* .profile p {
+        display: none;
+
+    } */
+}
+
+/* default styles */
+/* .profile { */
+/* width: 25%; */
+/* float: left; */
+
+/* padding: 4%;
+} */
+
+.title {
+    font-size: 3em;
+}
+
+/* responsive styles */
+@media screen and (max-width: 600px) {
+    /* .profile {
+        width: 20%;
+    } */
+
+    .title {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width:350px) and (min-width:310px) {
+    .title {
+        font-size: 1.7rem !important;
+    }
+
+    section h1 {
+        font-size: 1.7rem;
+
+    }
+}
